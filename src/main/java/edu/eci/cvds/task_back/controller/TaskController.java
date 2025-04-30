@@ -23,7 +23,7 @@ public class TaskController {
 
     /**
      * Endpoint para guardar una nueva tarea.
-     * @param task Objeto de tipo Task recibido en el cuerpo de la solicitud.
+     * @param taskdto Objeto de tipo Task recibido en el cuerpo de la solicitud.
      * Esta operación permite crear una nueva tarea.
      * La anotación {@code @CrossOrigin} permite solicitudes de origen cruzado de cualquier dominio.
      */
